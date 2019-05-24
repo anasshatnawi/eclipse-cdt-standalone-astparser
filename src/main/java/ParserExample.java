@@ -1,3 +1,5 @@
+package main.java;
+
 /*     */ import java.io.PrintStream;
 /*     */ import java.util.HashMap;
 /*     */ import java.util.Map;
@@ -34,7 +36,7 @@
 /*     */   public static void main(String[] args)
 /*     */     throws Exception
 /*     */   {
-/*  40 */     FileContent fileContent = FileContent.createForExternalFileLocation("/media/Dados/Codigos/Java/Projetos/OpenDevice/opendevice-hardware-libraries/arduino/OpenDevice/DeviceConnection.h");
+/*  40 */     FileContent fileContent = FileContent.createForExternalFileLocation("/v2/Distributor.h");
 /*     */ 
 /*  45 */     Map definedSymbols = new HashMap();
 /*  46 */     String[] includePaths = new String[0];
